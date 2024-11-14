@@ -1,12 +1,15 @@
-<h1>ExpNo 5 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
+<h1>ExpNo 6 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
+<BR>
 <h3>Name: VARSHINI S A       </h3>
 <h3>Register Number:    212222100059   </h3>
+<BR>
 <H3>Aim:</H3>
 <p>
     Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
 </p>
 
 <H3>Theory and Procedure:</H3>
+<BR>
 To begin, let's start by defining what it means to play a perfect game of tic tac toe:
 
 If I play perfectly, every time I play I will either win the game, or I will draw the game. Furthermore if I play against another perfect player, I will always draw the game.
@@ -61,7 +64,7 @@ Let's walk through the algorithm's execution with the full move tree, and show w
 ##A Coded Version of Minimax Hopefully by now you have a rough sense of how th e minimax algorithm determines the best move to play. Let's examine my implementation of the algorithm to solidify the understanding:
 
 Here is the function for scoring the game:
-
+```
 # @player is the turn taking player
 def score(game)
     if game.win?(@player)
@@ -101,7 +104,10 @@ def minimax(game)
         return scores[min_score_index]
     end
 end
+
+```
 ## PROGRAM:
+
 ```
 import time
 
@@ -264,10 +270,13 @@ if __name__ == "__main__":
     main()
 ```
 <hr>
-<h2>Output</h2>
+<BR>
+
+## Output
 
 ![image](https://github.com/user-attachments/assets/bb415632-2f18-4cd0-af8c-c78869e2d4cc)
 
 <hr>
-<h2>Result:</h2>
+
+## Result:
 <p>Thus,Implementation of  Minimax Search Algorithm for a Simple TIC-TAC-TOE game wasa done successfully.</p>
